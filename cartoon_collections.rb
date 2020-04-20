@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   
   planeteer_calls.map |el|
-    el.
+    el.upcase + "!"
   end
 end
 
